@@ -110,7 +110,83 @@ body {
 
 /************services********/
 .services {
+    display: block;
     width: 1340px;
     height: 460px;
-    background-image: url(/images/Zapolyrie.jpg);
+    background-image: url(../images/zapo.jpg);
+    position: static;
+}
+.services__textFZ {
+    display: inline-block;
+    width: 280px;
+    height: 66px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 1047px;
+}
+.services__boxServices {
+    width: 396px;
+    height: 290px;
+    background-color: #D9D9D9;
+    Opacity: 80%;
+    border-radius: 10px;
+    margin-left: 22px;
+}
+.services__list {
+    position: static;
+}
+.services__listElem {
+    width: 35px;
+    height: 33px;
+    background: #CC4B02;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    position: static;
+}
+.services__listElem:nth-child(1) {
+    position: relative;
+    top: 24px;
+    left: 24px;
+}
+.services__listElem:nth-child(2) {
+    position: relative;
+    top: 39px;
+    left: 47px;
+}
+.services__listElem:nth-child(3) {
+    position: relative;
+    top: 60px;
+    left: 75px;
+}
+.services__listElem:nth-child(4) {
+    position: relative;
+    top: 75px;
+    left: 103px;
+}
+.services__listElem:nth-child(5) {
+    position: relative;
+    top: 92px;
+    left: 134px;
+}
+.services__listElemNumber {
+    position: relative;
+    top: -13px;
+    left: 1px;
+    font-size: 30px;
+    color: #000000;
+}
+.services__listElemText {
+display: block;
+width: 220px;
+height: 44px;
+position: relative;
+top: -34px;
+left: 57px;
+color: black;
+font-size: 17px;
 }
