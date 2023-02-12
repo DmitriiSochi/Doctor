@@ -450,5 +450,61 @@ font-size: 17px;
     position: relative;
     top: 1px;
     left: 80px;
-
+}
+/***************transport******************/
+.transport {
+    width: 1340px;
+    height: 500px;
+    background-color: #D9D9D9;
+    position: relative;
+}
+.transport__title {
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+.transport__item {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: #CC4B02;
+    margin-top: 15px;
+}
+.transport__imgTitle {
+    display: block;
+    width: 290px;
+    height: 88px;
+}
+.transport__imgTitle:nth-of-type(1) {
+    position: relative;
+    top: 38px;
+    left: 79px;
+}
+.transport__imgTitle:nth-of-type(2) {
+    position: relative;
+    top: -126px;
+    left: 469px;
+}
+.transport__imgTitle:nth-of-type(3) {
+    position: relative;
+    top: -583px;
+    left: 937px;
+}
+.transport__img:nth-of-type(1) {
+    position: relative;
+    top: 2px;
+    left: 35px;
+}
+.transport__img:nth-of-type(2) {
+    position: relative;
+    top: -280px;
+    left: 920px;
+}
+.transport__img:nth-of-type(3) {
+    position: relative;
+    top: -462px;
+    left: 442px;
 }
