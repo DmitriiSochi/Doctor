@@ -508,3 +508,28 @@ font-size: 17px;
     top: -462px;
     left: 442px;
 }
+/****************publications*****************/
+.publications {
+    width: 1340px;
+    height: 290px;
+}
+.publications__title {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+.publications__list {
+    display: block;
+    width: 711px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.publications__listItem {
+    font-size: 16px;
+    line-height: 28px;
+}
+/************footer********************/
