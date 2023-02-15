@@ -113,7 +113,7 @@ body {
     display: block;
     width: 1340px;
     height: 460px;
-    background-image: url(../images/zapo.jpg);
+    background-image: url(/images/zapo.jpg);
     position: static;
 }
 .services__textFZ {
