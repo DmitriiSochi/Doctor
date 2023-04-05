@@ -9,12 +9,15 @@
 *::after {
 	box-sizing: border-box;
 }
-a, a:link, a:visited  {
-    color: inherit;
+a {
+    color:black;
+    text-decoration: none;
+}
+ a:link, a:visited  {
+    /* color:black; */
     text-decoration: none;
     /* display: inline-block; */
-}
-
+ }
 a:hover  {
     /* color: inherit; */
     text-decoration: none;
@@ -218,6 +221,9 @@ font-size: 17px;
     font-size: 20px;
     margin-left: 30px;
 }
+.fond__title-href{
+    color: blue;
+}
 .fund__text-red {
     /* width: 733px; */
     /* height: 61px; */
@@ -336,20 +342,19 @@ font-size: 17px;
     top: 16px;
     left: -59px;
 }
-.priority__lisetElem {
- 
-}
 .priority__listElemUp {
     display: inline-block;
     width: 100%;
     color: #CC4B02;
     text-align: center;
 }
-
+.priority__lisetElem{
+    font-size: 18px;    
+}
 /********************ourWork*******************/
 .ourWork {
     width: 1340px;
-    height: 1405px;
+    height: 1091px;
     background-color: #D9D9D9;
     position: relative;
 }
@@ -385,6 +390,7 @@ font-size: 17px;
     position: absolute;
     top: 173px;
     left: 480px;
+    border-radius: 10px;
 }
 .ourWork__imgTitle:nth-of-type(2) {
     position: absolute;
@@ -395,6 +401,7 @@ font-size: 17px;
     position: absolute;
     top: 172px;
     left: 910px;
+    border-radius: 10px;
 }
 .ourWork__imgTitle:nth-of-type(3) {
     position: absolute;
@@ -403,13 +410,34 @@ font-size: 17px;
 }
 .ourWork__img:nth-of-type(4) {
     position: absolute;
-    top: 866px;
-    left: 798px;
+    top: 657px;
+    left: 52px;
 }
 .ourWork__imgTitle:nth-of-type(4) {
     position: absolute;
-    top: 806px;
-    left: 798px;
+    top: 617px;
+    left: 168px;
+}
+.ourWork__img:nth-of-type(5) {
+    position: absolute;
+    top: 657px;
+    left: 485px;
+    border-radius: 10px;
+}
+.ourWork__imgTitle:nth-of-type(5) {
+    position: absolute;
+    top: 617px;
+    left: 569px;
+}
+.ourWork__img:nth-of-type(6) {
+    position: absolute;
+    top: 657px;
+    left: 910px;
+}
+.ourWork__imgTitle:nth-of-type(6) {
+    position: absolute;
+    top: 617px;
+    left: 1033px;
 }
 /******************equipment***********/
 .equipment {
