@@ -433,6 +433,7 @@ font-size: 17px;
     position: absolute;
     top: 657px;
     left: 910px;
+    border-radius: 10px;
 }
 .ourWork__imgTitle:nth-of-type(6) {
     position: absolute;
