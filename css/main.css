@@ -247,6 +247,18 @@ font-size: 17px;
     left: 945px;
     border-radius: 50px;
 }
+/*****************foundWork************/
+.foundWork {
+    width: 1340px;
+    height: 360px;
+    background-color: #00A6BD;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.foundWork__title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
 /*****************offer************/
 .offer {
     width: 1340px;
