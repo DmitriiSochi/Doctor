@@ -249,15 +249,32 @@ font-size: 17px;
 }
 /*****************foundWork************/
 .foundWork {
+    position: relative;
     width: 1340px;
-    height: 360px;
+    height: 500px;
     background-color: #00A6BD;
     margin-bottom: 20px;
     text-align: center;
 }
 .foundWork__title {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 26px;
+    display: block;
+    margin-bottom: 10px;
+}
+.foundWork__imgTitle {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 780px;
+}
+.foundWork__img {
+    width: 380px;
+    height: 380px;
+    display: block;
+    position: relative;
+    left: 485px;
+    top: 14px;
 }
 /*****************offer************/
 .offer {
