@@ -78,11 +78,11 @@ body {
     padding-top: 7px;
 }
 .header__boxMenu {
-    width: 540px;
+    width: 740px;
     height: 16px;
     position: relative;
     top: -24px;
-    left: 769px;
+    left: 700px;
 }
 .header__menu {
     display: inline;
@@ -90,7 +90,7 @@ body {
 .header__menuElem {
     display: inline;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
 
 }
@@ -492,7 +492,7 @@ font-size: 17px;
 .ourWork__imgTitle:nth-of-type(8) {
     position: absolute;
     top: 1111px;
-    left: 624px;
+    left: 510px;
 }
 .ourWork__img:nth-of-type(9) {
     position: absolute;
@@ -593,7 +593,7 @@ font-size: 17px;
 }
 .transport__imgTitle:nth-of-type(1) {
     position: relative;
-    top: 38px;
+    top: -33px;
     left: 79px;
 }
 .transport__imgTitle:nth-of-type(2) {
