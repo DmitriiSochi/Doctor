@@ -1,2 +1,2 @@
 # Doctor
-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
+This website doktora Vaganova
