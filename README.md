@@ -1,2 +1,2 @@
 # Doctor
-This bebsite doktora Vaganova
+This website doktora Vaganova
