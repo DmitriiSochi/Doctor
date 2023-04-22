@@ -252,7 +252,7 @@ font-size: 17px;
 .foundWork {
     position: relative;
     width: 1340px;
-    height: 275px;
+    height: 400px;
     background-color: #00A6BD;
     margin-bottom: 20px;
     text-align: center;
@@ -262,29 +262,50 @@ font-size: 17px;
     font-size: 26px;
     display: block;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 .foundWork__imgTitle {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline-block;
-    width: 780px;
+    width: 426px;
+    position: relative;
+    top: -15px;
+    left: -397px;
 }
 .foundWork__img {
     width: 380px;
     height: 180px;
     display: block;
     position: relative;
-    left: 485px;
-    top: 14px;
+    left: 73px;
+    top: 28px;
 }
 .foundWork__link {
     color: blue;
+}
+.foundWork__imgTitle-work {
+    display: inline-block;
+    width: 373px;
+    height: 88px;
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 882px;
+}
+.foundWork__img-work {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 110px;
+    left: 930px;
 }
 /*****************offer************/
 .offer {
     width: 1340px;
     height: 460px;
-    background-image: url(../images/ourWork1_fon.png);
+    /* background-image: url(../images/ourWork1_fon.png); */
+    /* background-color: #D9D9D9; */
     position: relative;
 }
 .offer__boxOffer {
@@ -293,7 +314,7 @@ font-size: 17px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     position: relative;
-    top: 39px;
+    top: -315px;
     left: 926px;
 }
 .offer__titel {
@@ -342,8 +363,13 @@ font-size: 17px;
 
 /***************priority*****************/
 .priority {
-    width: 1340px;
-    height: 290px;
+    width: 779px;
+    height: 346px;
+    display: inline-block;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 57px;
+    left: 78px;
 }
 .priority__title {
     width: 100%;
@@ -366,7 +392,7 @@ font-size: 17px;
     height: 174px;
     position: relative;
     top: 2.4px;
-    left: 421px;
+    left: 80px;
     line-height: 0px;
 }
 .priority__listElemImg {
