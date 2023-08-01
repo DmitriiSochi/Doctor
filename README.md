@@ -1,2 +1,2 @@
 # Doctor
-This website doktora Vaganova
+Doktor Vaganova's website
